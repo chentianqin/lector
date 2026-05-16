@@ -1,0 +1,16 @@
+.ipynb_checkpoints
+__pycache__
+.DS_Store
+.env*
+.venv/
+venv/
+logs/
+web_app/workspace/
+web_app/uploads/
+*.bak
+*.png.bak
+__openclaw__/
+node_modules/
+package-lock.json
+package.json
+playwright/.local-browsers/

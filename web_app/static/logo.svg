@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <marker id="arrowHead" markerWidth="14" markerHeight="10" refX="12" refY="5" orient="auto">
+      <path d="M0,0.5 L12,5 L0,9.5 L3,5 Z" fill="#3788D8"/>
+    </marker>
+  </defs>
+
+  <!-- 6 arrows from center node, uneven angles and varying lengths -->
+
+  <!-- Arrow 1: up-left, long -->
+  <line x1="234" y1="228" x2="140" y2="112"
+        stroke="#3788D8" stroke-width="5" stroke-linecap="round"
+        marker-end="url(#arrowHead)"/>
+
+  <!-- Arrow 2: up, medium-short -->
+  <line x1="256" y1="220" x2="256" y2="148"
+        stroke="#3788D8" stroke-width="5" stroke-linecap="round"
+        marker-end="url(#arrowHead)"/>
+
+  <!-- Arrow 3: right, very long -->
+  <line x1="290" y1="248" x2="418" y2="248"
+        stroke="#3788D8" stroke-width="5" stroke-linecap="round"
+        marker-end="url(#arrowHead)"/>
+
+  <!-- Arrow 4: down-right, short -->
+  <line x1="280" y1="272" x2="322" y2="318"
+        stroke="#3788D8" stroke-width="5" stroke-linecap="round"
+        marker-end="url(#arrowHead)"/>
+
+  <!-- Arrow 5: down-left, medium-long -->
+  <line x1="234" y1="272" x2="168" y2="372"
+        stroke="#3788D8" stroke-width="5" stroke-linecap="round"
+        marker-end="url(#arrowHead)"/>
+
+  <!-- Arrow 6: left, medium -->
+  <line x1="222" y1="248" x2="108" y2="248"
+        stroke="#3788D8" stroke-width="5" stroke-linecap="round"
+        marker-end="url(#arrowHead)"/>
+
+  <!-- Center node — solid green -->
+  <circle cx="256" cy="248" r="32" fill="#22C55E"/>
+</svg>
